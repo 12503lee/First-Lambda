@@ -1,0 +1,9 @@
+1. MongoDb와의 Connection중에 모듈을 넣어주지 않아 에러가
+   발생했다.
+
+	해결: cmd로 npm install mongoose를 통해 라이브러리를
+	설치하고 압축하여 나의 Lambda Layer에 추가함
+
+
+2. 에러 확인 플랫폼 RestLet 클라이언트를 사용하여 어디서
+   에러가 발생했는지를 체크해가며 해결했다.
